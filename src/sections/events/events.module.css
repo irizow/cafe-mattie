@@ -23,12 +23,14 @@
 .imgwrapper {
     position: relative;
     width: 45vw;
+    height: 65vh;
 }
 
 
 
 .eventwrapper img {
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     position: absolute;
     top: 0; 
@@ -50,14 +52,14 @@
         padding: 0;
     }
     .eventwrapper {
-        grid-column: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        min-height: auto;
     }
 
     .imgwrapper {
-        grid-row: 2/3;
         width: 100vw;
         z-index: 1;
+        height: 30vh;
     }
     .eventwrapper img {
         margin: 2rem 0;
