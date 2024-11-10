@@ -10,6 +10,7 @@ export default function Hero() {
          className={styles.hero}>
             <div>
                 <h1>CAFÉ MATTIE</h1>
+                <span>Todos los días de 8h a 20h</span>
             </div>
             <a href='#menu'>
                 <button>MENU</button>
