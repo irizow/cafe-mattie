@@ -62,8 +62,12 @@
         top: 0;
         z-index: 10;
     }
-    .header>figure>img {
-        display: none;
+    .header figure>img {
+        width: 40px;
+    }
+
+    .header figure {
+        font-size: 2rem;
     }
     .header>nav {
         display: none;

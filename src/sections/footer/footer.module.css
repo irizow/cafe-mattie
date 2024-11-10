@@ -14,3 +14,9 @@
     color: rgb(156, 255, 156);
     text-decoration: none;
 }
+
+@media screen and (max-width: 750px) {
+    .footer {
+        margin-top: 5vh;
+    }
+}

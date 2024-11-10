@@ -44,8 +44,9 @@ export default function Menu() {
             <div className={styles.menupair}>
                 <motion.img
                 ref={picture}
-                animate={isPictureInView ? {scale: 1, opacity: 1} : {scale: 0.5, opacity: 0}}
-                transition={{duration: 1, delay: 0.4, ease: 'easeInOut'}}
+                animate={{scale: isPictureInView ? 1 : 0.60,  // Keep scale change small
+                    opacity: isPictureInView ? 1 : 0 }}
+                transition={{duration: 0.6, ease: 'easeIn'}}
                 src={img}
                 alt={alt}
                  />
