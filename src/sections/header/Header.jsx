@@ -30,7 +30,7 @@ export default function Header() {
             <a href='#hero'>
                 <figure>
                 <img src={logoImg} alt='café mattie logo'></img>
-                <figcaption>CAFÉ MATTIE</figcaption>
+                <figcaption>CAFE MATTIE</figcaption>
                 </figure>
             </a>
             <nav className={styles.headernav}>

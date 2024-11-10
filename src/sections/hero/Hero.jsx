@@ -9,8 +9,7 @@ export default function Hero() {
             transition={{duration: 1, ease: 'easeIn'}}
          className={styles.hero}>
             <div>
-                <h1>CAFÉ MATTIE</h1>
-                <span>Todos los días de 8h a 20h</span>
+                <h1>CAFE MATTIE</h1>
             </div>
             <a href='#menu'>
                 <button>MENU</button>
