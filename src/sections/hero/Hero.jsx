@@ -11,7 +11,9 @@ export default function Hero() {
             <div>
                 <h1>CAFÉ MATTIE</h1>
             </div>
-            <button>MENU</button>
+            <a href='#menu'>
+                <button>MENU</button>
+            </a>
         </motion.section>
     )
 }

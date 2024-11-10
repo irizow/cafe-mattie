@@ -28,6 +28,7 @@
     font-family: 'Kaikoura';
     margin-top: 1rem;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 750px) {
