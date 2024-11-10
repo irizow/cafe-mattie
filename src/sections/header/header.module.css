@@ -60,6 +60,7 @@
         height: 12vh;
         position: fixed;
         top: 0;
+        z-index: 10;
     }
     .header>figure>img {
         display: none;
@@ -88,15 +89,14 @@
         justify-content: center;
         gap: 2rem;
         font-size: 2.5rem;
-        position: fixed;
+        position: absolute;
         background-color: var(--sand);
         width: 100vw;
-        height: 100vh;
+        height: 88vh;
         padding-bottom: 6rem;
         box-sizing: border-box;
         top:12vh;
         right: 0;
-        overflow-y: hidden;
     }
 
 
