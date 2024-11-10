@@ -11,13 +11,16 @@
 
 .hero>div {
     padding: 2rem;
-    background-color: rgba(31, 31, 31, 0.479);
     color: white;
 }
 .hero h1 {
     font-size: 3rem;
     font-family: 'Kaikoura';
-    background-color: transparent;
+}
+
+.hero a {
+    text-decoration: none;
+    color: var(--black);
 }
 
 .hero button {
@@ -30,7 +33,12 @@
     margin-top: 1rem;
     border-radius: 5px;
     cursor: pointer;
+    color: var(--black);
 }
+
+
+
+
 
 @media screen and (max-width: 750px) {
     .hero {
