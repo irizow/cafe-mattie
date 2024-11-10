@@ -1,0 +1,110 @@
+
+.header {
+    width: 100%;
+    background-color: var(--sand);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.header a {
+    padding: 0.5rem 0;
+    color: var(--black);
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.header nav>a:hover {
+    border-bottom: 2px solid var(--black);
+    border-top: 2px solid var(--black);
+}
+
+.header figure>img {
+    width: 60px;
+}
+
+.header figure {
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 2rem;
+    font-family:'Kaikoura', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header>nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.header>nav img {
+    width: 30px;
+}
+
+.hamburgermenu {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .header {
+        height: 12vh;
+        position: fixed;
+        top: 0;
+    }
+    .header>figure>img {
+        display: none;
+    }
+    .header>nav {
+        display: none;
+    }
+
+
+    .hamburgermenu {
+        display: block;
+        position: fixed;
+        right: 0;
+        width: 60px;
+        transition: transform 400ms ease-in-out;
+    }
+
+    .open {
+        transform: rotate(90deg);
+    }
+
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        font-size: 2.5rem;
+        position: fixed;
+        background-color: var(--sand);
+        width: 100vw;
+        height: 100vh;
+        padding-bottom: 6rem;
+        box-sizing: border-box;
+        top:12vh;
+        right: 0;
+        overflow-y: hidden;
+    }
+
+
+    .dropdown>div {
+        position: absolute;
+        bottom: 2rem;
+    }
+    .dropdown>div img {
+        width: 50px;
+    }
+}

@@ -1,0 +1,38 @@
+.hero {
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+    background-image: url(../../assets/images/cafe.jpg);
+    background-position: center;
+    color: var(--white);
+    text-align: center;
+  
+}
+
+.hero>div {
+    padding: 2rem;
+    background-color: rgba(31, 31, 31, 0.479);
+    color: white;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-family: 'Kaikoura';
+}
+
+.hero button {
+    background-color: var(--white);
+    border: none;
+    height: 2rem;
+    width: 10rem;
+    place-self: center;
+    font-family: 'Kaikoura';
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 750px) {
+    .hero {
+        margin-top: 12vh;
+    }
+    
+}

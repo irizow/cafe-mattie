@@ -1,0 +1,52 @@
+.about {
+    padding: 2rem 5rem;
+}
+
+.about>div {
+    display: flex;
+    gap: 10rem;
+}
+
+.about>h1 {
+    margin-bottom: 4rem;
+}
+
+.about>div>p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-inline: 1rem;
+}
+
+.about>div>p>em {
+    font-style: normal;
+    font-family: 'Kaikoura', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about>div>div {
+    height: 100vh;
+}
+.about img {
+    width: 40%;
+    object-fit: cover;
+    overflow: none;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        padding: 0;
+    }
+    .about>div {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .about img {
+        height: 50vh;
+        width: auto;
+    }
+
+    .about img {
+        border-radius: 0;
+    }
+}
