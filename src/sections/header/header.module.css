@@ -92,7 +92,7 @@
         align-items: center;
         justify-content: center;
         gap: 2rem;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         position: absolute;
         background-color: var(--sand);
         width: 100vw;
@@ -106,7 +106,7 @@
 
     .dropdown>div {
         position: absolute;
-        bottom: 2rem;
+        bottom: 7rem;
     }
     .dropdown>div img {
         width: 50px;
